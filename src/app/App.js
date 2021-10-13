@@ -6,8 +6,8 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <img src={recipes[0].image} alt="bahn mi" />
-      {recipes[0].nameOfFood}
+      <img src={recipes[1].img} alt="bahn mi" />
+      
     </div>
   );
 }
