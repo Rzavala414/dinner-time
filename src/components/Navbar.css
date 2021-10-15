@@ -1,0 +1,33 @@
+nav{
+    margin: 0px;
+    text-align: left;
+    background-color: #007083;
+    margin-bottom: 100px;
+    font-family: 'Rampart One', cursive;
+}
+
+
+nav h1 span{
+    color: #FBFB00;
+}
+
+.logo{
+    display: inline-block;
+    font-size: 35px;
+    color: #A9E60E;
+}
+
+.search-icon{
+    border-radius: 4px;
+    position: relative;
+    top: 2px;
+    right: 20px;
+   
+    cursor: pointer;
+}
+
+.search-box{
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}

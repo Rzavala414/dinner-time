@@ -1,3 +1,17 @@
+body{
+  background-image: url('https://thumbs.dreamstime.com/b/orange-grunge-background-colors-design-wall-wallpaper-backdrop-dirty-halloween-art-element-decor-watercolor-new-texture-blotch-165035797.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+img{
+  height: 466px;
+  width: 700px;
+  border-radius: 7px;
+  border: solid 3px rgb(122, 117, 117);
+}
+
 .App {
   text-align: center;
 }
