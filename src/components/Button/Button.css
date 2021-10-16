@@ -1,0 +1,19 @@
+.recipe-generator{
+    margin-top: 50px;
+    height: 40px;
+    width: 200px;
+    font-family: 'Patua One', cursive;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1.3px;
+    background-color: #F7F2CB;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+}
+
+.recipe-generator:active{
+    height: 38px;
+    width: 190px;
+    font-size: 17px;
+}
