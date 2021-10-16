@@ -8,10 +8,8 @@ export default function Navbar() {
     return(
         <nav>
             <h1 className="logo"> Dinner <span>Time</span> </h1> 
-
-            <input className="search-box" type='search' /> 
+            <input className="search-box" type='search' placeholder="Search" /> 
             <FontAwesomeIcon className="search-icon" icon={faSearch} />
-            
         </nav>
     );
 }

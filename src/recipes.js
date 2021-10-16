@@ -406,6 +406,14 @@ const recipes = [
   //    ingredients: 'bread',
   //    category: 'dinner',
   //    img: require('./img/birriaTacos.jpeg').default
+  //  },
+  //  { 
+  //    id: 52,
+  //    dishName: 'Grilled Cheese and Tomato Soup', 
+  //    directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+  //    ingredients: 'bread',
+  //    category: 'dinner',
+  //    img: require('./img/birriaTacos.jpeg').default
   //  }
 ]
 
