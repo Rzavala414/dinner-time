@@ -1,9 +1,9 @@
 const recipes = [
    { 
      id: 1,
-     dishName: 'bahn mi', 
+     dishName: 'Bahn Mi', 
      directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
-     ingredients: 'bread',
+     ingredients: 'Bread',
      category: 'dinner',
      img: require('./img/bahn-mi.png').default
    },
