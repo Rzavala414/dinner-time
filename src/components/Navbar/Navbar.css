@@ -22,10 +22,13 @@ nav h1 span{
     position: relative;
     top: 2px;
     right: 20px;
-   
     cursor: pointer;
 }
 
+.utensils-icon{
+    color: white;
+    border-color:red;
+}
 .search-box{
     border-radius: 4px;
     border: none;
