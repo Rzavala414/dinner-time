@@ -18,7 +18,6 @@ function App() {
 
     // prevents recipe from showing up twice in a row
     if(recipe === recipes[recipeIndex]){
-      console.log('cunt')
       randomizeRecipe();
       return;
     };
