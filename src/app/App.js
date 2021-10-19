@@ -9,9 +9,19 @@ import './App.css';
 function App() {
 
   const[recipe, setRecipe] = useState({})
+
   // gets random recipe and updates the recipe state
   const randomizeRecipe = () =>{
+
     const recipeIndex = Math.floor(Math.random() * recipes.length); 
+
+    // prevents recipe from showing up twice in a row
+    if(recipe === recipes[recipeIndex]){
+      console.log('cunt')
+      randomizeRecipe();
+      return;
+    };
+
     setRecipe(recipes[recipeIndex])
     
   }
