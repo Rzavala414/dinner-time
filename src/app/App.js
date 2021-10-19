@@ -2,6 +2,7 @@ import {React, useState } from 'react';
 import recipes from '../recipes.js';
 import Navbar from '../components/Navbar/Navbar.js';
 import Button from '../components/Button/Button.js';
+import RecipeImage from '../components/RecipeImage/RecipeImage.js';
 import FoodContentContainer from '../components/FoodContentContainer/FoodContentContainer.js'
 import './App.css';
 
@@ -35,7 +36,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <img src={recipe.img} alt="temp" />
+      <RecipeImage recipe={recipe}/>
       <br/>
       <Button randomizeRecipe={randomizeRecipe}/>
       <FoodContentContainer recipe={recipe} />
