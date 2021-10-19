@@ -1,17 +1,15 @@
 import React from 'react';
 import './FoodContent.css';
 
-export default function FoodContent(recipe, key){
-    // sets recipes object to a single recipe array
-    const {dishName, directions, ingredients} = recipe.recipe;
+// hold the information that relates to reach recipe
+export default function FoodContent(recipe){
 
-    // grab recipe information 
-    // const {dishName, ingredients} = recipe[0];
-
+    // Grab recipe items
+    const {dishName, directions, ingredients} = recipe.recipe.recipe;
+    
     return(
         <div className="food-content">
             <h2>{dishName}</h2>
-           
            
             <h3><u>INGREDIENTS</u></h3>
             <ul>
@@ -23,7 +21,7 @@ export default function FoodContent(recipe, key){
 
             <h3><u>DIRECTIONS</u></h3>
             <ol>
-                <li>Butter</li>
+                <li>{directions}</li>
                 <li>Water</li>
                 <li>Flour</li>
                 <li>Love</li>
