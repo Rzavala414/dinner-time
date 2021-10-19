@@ -10,7 +10,7 @@ const recipes = [
    { 
      id: 2,
      dishName: 'Carne Asada Tacos', 
-     directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+     directions: 'Slice the flank steak into ½-inch thick slices. Freeze for 15-20 minutes prior to help with cutting. Add slices to a medium bowl.',
      ingredients: 'bread',
      category: 'dinner',
      img: require('./img/carne-asada-tacos.jpg').default
@@ -18,7 +18,7 @@ const recipes = [
    { 
      id: 3,
      dishName: 'Chicken Tikka Masala', 
-     directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+     directions: 'Once the oil is hot, shake off the excess starch from the beef and shallow each piece of beef in batches for 2-3 minutes per side. Place to the side as they finish browning.',
      ingredients: 'bread',
      category: 'dinner',
      img: require('./img/chicken-tikka-masala.jpeg').default
@@ -26,7 +26,7 @@ const recipes = [
    { 
      id: 4,
      dishName: 'Quinoa Bowl', 
-     directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+     directions: 'n a medium-size pot, over medium-high, add the milk, bring it to a boil, cut the heat, pour it into a bowl, and cool it down over an ice bath. Once it cooled down, add 120g. of filtered water, heat it to 95F, and add the yeast, dissolve, and reserve',
      ingredients: 'bread',
      category: 'dinner',
      img: require('./img/quinoa-bowl.jpeg').default
@@ -34,7 +34,7 @@ const recipes = [
    { 
      id: 5,
      dishName: 'Stir-fry', 
-     directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+     directions: 'Place the softened butter, salt, a black pepper pinch, two teaspoons of charred cinnamon powder, a bit of freshly grated nutmeg, and the beans of half a vanilla bean pod in a mixing bowl and give it a good whisk until smooth. Add the powder sugar, and whisk vigorously to incorporate some air.',
      ingredients: 'bread',
      category: 'dinner',
      img: require('./img/chicken-stirfry.jpg').default
@@ -42,19 +42,19 @@ const recipes = [
    { 
      id: 6,
      dishName: 'Burritos', 
-     directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+     directions: 'Using a blow torch, charr three cinnamon sticks on both sizes. Let them cool down, break them into small pieces, blend them until you get a fine powder, and pass it through a sifte',
      ingredients: 'bread',
      category: 'dinner',
      img: require('./img/burrito.jpg').default
    },
-  //  { 
-  //    id: 7,
-  //    dishName: 'Caldo De Albondigas', 
-  //    directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
-  //    ingredients: 'bread',
-  //    category: 'dinner',
-  //    img: require('./img/birriaTacos.jpeg').default
-  //  },
+   { 
+     id: 7,
+     dishName: 'Caldo De Albondigas', 
+     directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+     ingredients: 'bread',
+     category: 'dinner',
+     img: require('./img/birriaTacos.jpeg').default
+   },
   //  { 
   //    id: 8,
   //    dishName: 'Chili Enchilads', 
