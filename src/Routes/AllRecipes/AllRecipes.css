@@ -1,0 +1,8 @@
+.all-recipe-container{
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+    grid-auto-rows: 25.5em;
+}

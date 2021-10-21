@@ -6,7 +6,7 @@ export default function RecipeImage(recipe){
     const { img, dishName } = recipe.recipe;
 
     return(
-        <img src={img} alt={dishName}/>
+        <img className="recipe-image" src={img} alt={dishName}/>
     );
     
 };

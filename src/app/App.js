@@ -1,11 +1,10 @@
 import { 
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 } from 'react-router-dom';
-import RandomRecipe from '../Routes/RandomRecipe.js';
-import AllRecipes from '../Routes/AllRecipes.js';
+import RandomRecipe from '../Routes/RandomRecipe/RandomRecipe.js';
+import AllRecipes from '../Routes/AllRecipes/AllRecipes.js';
 import Navbar from '../components/Navbar/Navbar.js';
 import './App.css';
 

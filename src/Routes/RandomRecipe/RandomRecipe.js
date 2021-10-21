@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import recipes from '../recipes.js';
-import Button from '../components/Button/Button.js';
-import RecipeImage from '../components/RecipeImage/RecipeImage.js';
-import FoodContentContainer from '../components/FoodContentContainer/FoodContentContainer.js'
+import recipes from '../../recipes.js';
+import Button from '../../components/Button/Button.js';
+import RecipeImage from '../../components/RecipeImage/RecipeImage.js';
+import FoodContentContainer from '../../components/FoodContentContainer/FoodContentContainer.js'
 
 
 export default function RandomRecipe(){

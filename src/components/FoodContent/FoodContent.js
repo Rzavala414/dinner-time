@@ -2,10 +2,10 @@ import React from 'react';
 import './FoodContent.css';
 
 // hold the information that relates to reach recipe
-export default function FoodContent(recipe){
+export default function FoodContent(props){
 
     // Grab recipe items
-    const {dishName, directions, ingredients} = recipe.recipe.recipe;
+    const {dishName, directions, ingredients} = props.recipe;
     
     return(
         <div className="food-content">
