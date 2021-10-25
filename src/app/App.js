@@ -15,12 +15,9 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
-        <Route exact path='/'>
-         <RandomRecipe />
-        </Route>
-        <Route  path='/allrecipes'>
-          <AllRecipes />
-        </Route>
+          <Route exact path='/' component={RandomRecipe} />
+          <Route  path='/allrecipes' component={AllRecipes} />
+          {/* <Route path='/recipe/:id' component={myDynamicComponent} /> */}
         </Switch>  
       </Router>
     </div>
