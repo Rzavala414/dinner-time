@@ -3,9 +3,27 @@ import './FoodContent.css';
 
 // hold the information that relates to reach recipe
 export default function FoodContent(props){
+    let dishName;
+    let directions;
+    let ingredients;
 
-    // Grab recipe items
-    const {dishName, directions, ingredients} = props.recipe;
+    if(props.randomRecipe !== undefined){
+
+        dishName = props.randomRecipe.dishName;
+        directions = props.randomRecipe.directions;
+        ingredients = props.randomRecipe.ingredients;
+
+    }else if(props.recipes !== undefined){
+
+        const { recipes, foodID } = props;
+        const recipe = recipes.find(recipe => recipe.id == foodID);
+        dishName = recipe.dishName;
+        directions = recipe.directions;
+        ingredients = recipe.ingredients;
+
+    }
+
+    
     
     return(
         <div className="food-content">

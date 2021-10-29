@@ -1,25 +1,24 @@
 import { useState } from 'react';
-import recipes from '../../recipes.js';
 import Button from '../../components/Button/Button.js';
 import RecipeImage from '../../components/RecipeImage/RecipeImage.js';
 import FoodContentContainer from '../../components/FoodContentContainer/FoodContentContainer.js'
 
 
-export default function RandomRecipe(){
-    const[recipe, setRecipe] = useState({})
+export default function RandomRecipe(props){
+  const [randomRecipe, setRandomRecipe] = useState({});
+  const recipe = props.recipe;
 
     // gets random recipe and updates the recipe state
     const randomizeRecipe = () =>{
   
-      const recipeIndex = Math.floor(Math.random() * recipes.length); 
-  
+      const randomRecipeIndex = Math.floor(Math.random() * recipe.length); 
       // prevents recipe from showing up twice in a row
-      if(recipe === recipes[recipeIndex]){
+      if(randomRecipe === recipe[randomRecipeIndex]){
         randomizeRecipe();
         return;
       };
-  
-      setRecipe(recipes[recipeIndex])
+      
+      setRandomRecipe(recipe[randomRecipeIndex])
     }
   
     // display a recipe on load
@@ -29,10 +28,10 @@ export default function RandomRecipe(){
 
     return(
         <div>
-            <RecipeImage recipe={recipe}/>          
+            <RecipeImage randomRecipe={randomRecipe}/>          
             <br/>
             <Button randomizeRecipe={randomizeRecipe}/>
-            <FoodContentContainer recipe={recipe} />
+            <FoodContentContainer randomRecipe={randomRecipe} />
         </div>
     );
 }

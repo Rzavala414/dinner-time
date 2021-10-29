@@ -53,16 +53,16 @@ const recipes = [
      directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
      ingredients: 'bread',
      category: 'dinner',
-     img: require('./img/birriaTacos.jpeg').default
+     img: require('./img/caldo-de-albondigas.jpg').default
    },
-  //  { 
-  //    id: 8,
-  //    dishName: 'Chili Enchilads', 
-  //    directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
-  //    ingredients: 'bread',
-  //    category: 'dinner',
-  //    img: require('./img/birriaTacos.jpeg').default
-  //  },
+   { 
+     id: 8,
+     dishName: 'Chili Enchilads', 
+     directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
+     ingredients: 'bread',
+     category: 'dinner',
+     img: require('./img/chili-enchiladas.jpg').default
+   },
   //  { 
   //    id: 9,
   //    dishName: 'CHicken Noodle Soup', 

@@ -4,11 +4,11 @@ import './FoodContentContainer.css';
 
 
 export default function FoodContentContainer(props){
-    const recipe = props.recipe;
+    const { randomRecipe, recipes, foodID } = props;
     
     return(
         <div className="food-content-container" >
-           <FoodContent recipe={recipe} />
+           <FoodContent randomRecipe={randomRecipe} recipes={recipes} foodID={foodID}/>
         </div>
     );
 

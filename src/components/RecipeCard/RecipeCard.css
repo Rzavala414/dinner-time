@@ -1,5 +1,13 @@
 .recipe-card{
-    border: 1px solid #eee;
+    border: 1.5px solid #eee;
+    background: #F7F2CB;
+}
+
+.recipe-card:active{
+    height: 98%;
+    width: 98%;
+    border: 1.5px solid #eee;
+    background: #F7F2CB;
 }
 
 .card-image{
