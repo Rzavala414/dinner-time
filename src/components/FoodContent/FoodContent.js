@@ -7,6 +7,7 @@ export default function FoodContent(props){
     let directions;
     let ingredients;
 
+    // displays the recipe info while viewing the random RecipeComponent if not undefined, else the food info is shown for the recipe component
     if(props.randomRecipe !== undefined){
 
         dishName = props.randomRecipe.dishName;
@@ -16,7 +17,7 @@ export default function FoodContent(props){
     }else if(props.recipes !== undefined){
 
         const { recipes, foodID } = props;
-        const recipe = recipes.find(recipe => recipe.id == foodID);
+        const recipe = recipes.find(recipe => recipe.id === parseInt(foodID));
         dishName = recipe.dishName;
         directions = recipe.directions;
         ingredients = recipe.ingredients;
