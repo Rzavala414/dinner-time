@@ -26,7 +26,7 @@ function App() {
           <Route exact path='/allrecipes' >
             <AllRecipes recipe={recipe} setRecipe={setRecipe} />
           </Route>
-          <Route exact path='/recipe' >
+          <Route exact path='/recipe/:id' >
             <Recipe recipe={recipe} setRecipe={setRecipe}/>
           </Route>
         </Switch>  

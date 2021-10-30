@@ -1,12 +1,13 @@
-import { useLocation } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import queryString from 'query-string';
 import FoodContentContainer from '../../components/FoodContentContainer/FoodContentContainer';
 import RecipeImage from '../../components/RecipeImage/RecipeImage';
 
 export default function Recipe(props) {
+    const { id } = useParams()
     const  recipe  = props.recipe;
     const { search } = useLocation();
-    const { id } = queryString.parse(search);
+    // const { id } = queryString.parse(search);
     
 
     return(
