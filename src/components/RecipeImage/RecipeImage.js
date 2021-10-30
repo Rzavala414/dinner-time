@@ -5,6 +5,7 @@ export default function RecipeImage(props){
     let img;
     let dishName;
 
+    // displays the picture while viewing the random RecipeComponent if not undefined, else the picture is shown for the recipe component
     if(props.randomRecipe !== undefined){
 
         img = props.randomRecipe.img;
@@ -13,7 +14,7 @@ export default function RecipeImage(props){
     }else if(props.recipes !== undefined){
 
         const { recipes, foodID } = props;
-        const recipe = recipes.find(recipe => recipe.id == foodID);
+        const recipe = recipes.find(recipe => recipe.id === parseInt(foodID));
         img = recipe.img;
         dishName = recipe.dishName;
 
