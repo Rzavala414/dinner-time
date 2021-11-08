@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Button from '../../components/Button/Button.js';
 import RecipeImage from '../../components/RecipeImage/RecipeImage.js';
 import FoodContentContainer from '../../components/FoodContentContainer/FoodContentContainer.js'
@@ -25,6 +25,11 @@ export default function RandomRecipe(props){
     window.onload = () => {
       randomizeRecipe();
     }
+
+    // prevents random recipe from display an empty page after a user leaves 
+    useEffect(() => {
+      randomizeRecipe();
+    },[])
 
     return(
         <div>
