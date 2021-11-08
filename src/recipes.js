@@ -3,7 +3,7 @@ const recipes = [
      id: 1,
      dishName: 'Bahn Mi', 
      directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
-     ingredients: 'Bread',
+     ingredients: '"1 lbs of daikon" "6 oz carrots" " 1 tsp fine sea salt" "1/4 tsp chinese five-spice" "2 tbsp honey" "2 tbsp of hoisin sauce" "1 1/2 tbsp soy sauce" "1tbsp ketchup" "2tsp of toasted sesame oil" "French bread" "Mayonnaise" "Maggi"',
      category: 'dinner',
      img: require('./img/bahn-mi.png').default
    },
@@ -11,8 +11,9 @@ const recipes = [
      id: 2,
      dishName: 'Carne Asada Tacos', 
      directions: 'Slice the flank steak into ½-inch thick slices. Freeze for 15-20 minutes prior to help with cutting. Add slices to a medium bowl.',
-     ingredients: 'bread',
-     category: 'dinner',
+     ingredients: ' "2lbs of flank or skirt steak" "1 bunch of cilantro" "4 garlic cloves (minced)" "juice & zest of 1 lime" "2 tsp of kosher salt" "1 tsp of medium corse black pepper" "5 shakes of worcestershire" "Corn tortillas" "4 radishes" "1/4 cup diced onion (yellow or white)" "1/3 cup minced cilantro" ""',
+     servings: '4',
+     category: 'dinner', 
      img: require('./img/carne-asada-tacos.jpg').default
    },
    { 
@@ -20,6 +21,7 @@ const recipes = [
      dishName: 'Chicken Tikka Masala', 
      directions: 'Once the oil is hot, shake off the excess starch from the beef and shallow each piece of beef in batches for 2-3 minutes per side. Place to the side as they finish browning.',
      ingredients: 'bread',
+     servings: '2',
      category: 'dinner',
      img: require('./img/chicken-tikka-masala.jpeg').default
    },
@@ -27,7 +29,8 @@ const recipes = [
      id: 4,
      dishName: 'Quinoa Bowl', 
      directions: 'n a medium-size pot, over medium-high, add the milk, bring it to a boil, cut the heat, pour it into a bowl, and cool it down over an ice bath. Once it cooled down, add 120g. of filtered water, heat it to 95F, and add the yeast, dissolve, and reserve',
-     ingredients: 'bread',
+     ingredients: ' "1 whole Avocado" "1 cup Quinoa" "2 chicken breast" "1 cup of loose corn" "2 eggs" "1/2 cup of cherry tomatoes" "1 lime" "1/3 cup of queso fresco crumbs"',
+     servings: '2',
      category: 'dinner',
      img: require('./img/quinoa-bowl.jpeg').default
    },
@@ -41,9 +44,10 @@ const recipes = [
    },
    { 
      id: 6,
-     dishName: 'Burritos', 
+     dishName: 'Carne Asada Burritos', 
      directions: 'Using a blow torch, charr three cinnamon sticks on both sizes. Let them cool down, break them into small pieces, blend them until you get a fine powder, and pass it through a sifte',
-     ingredients: 'bread',
+     ingredients: ' "2 tsp chicken boullion"  "1/2 diced yellow onion" "2 roma tomatoes" "Pinch of salt" "3 garlic cloves minced" "1 1/2 cup of water" "1/2 a yellow onion" "3 garlic cloves" "1 cup pinto beans" "1 tbsp of salt" "4 cups of water" "flour tortilla" "pickled jalapeno" "2 lb of flank steak or skirt steak" "1 1/2 tbsp carne asada seasoning" "1 tbsp corn oil or neutral oil"',
+     servings: '2',
      category: 'dinner',
      img: require('./img/burrito.jpg').default
    },
@@ -51,7 +55,7 @@ const recipes = [
      id: 7,
      dishName: 'Caldo De Albondigas', 
      directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
-     ingredients: 'bread',
+     ingredients: ' "2 lb ground turkey" "1 cup of rice" "1/4 cup diced yellow onion" "1/2 a bunch of cilantro" "2 tsp salt" "2 tsp oregano" "2 tsp medium corse black pepper" "3 roma tomatoes" "1/2 of a yellow onion" " 2 garlic cloves" "1 tbsp chicken booullion" "1/2 tsp of cumin" "1/2 a bunch of minced cilantro" " 3 yukon gold potatoes" "3 sticks of celery" "3 carrot sticks" "2 corn cobs" "1/2 a cabbage head" "6 cups of water"',
      category: 'dinner',
      img: require('./img/caldo-de-albondigas.jpg').default
    },
@@ -59,7 +63,8 @@ const recipes = [
      id: 8,
      dishName: 'Chili Enchilads', 
      directions: 'Whisk half-and-half, ricotta cheese, eggs, melted butter, and lemon extract together in a separate bowl until smooth. Pour into the flour mixture and mix until thoroughly combined.',
-     ingredients: 'bread',
+     ingredients: '"1cup of corn oil or neutral oil" "2 cups of shredded cheddar cheese" "2cups of chilli canned or homemade" "Corn tortillas"',
+     servings: '4',
      category: 'dinner',
      img: require('./img/chili-enchiladas.jpg').default
    },
