@@ -7,7 +7,9 @@ export default function Button(props){
     const randomizeRecipe = props.randomizeRecipe;
    
     return(
-        <button className="recipe-generator" onClick={randomizeRecipe} >Show New Recipe</button>
+        <div className="button-container">
+            <button className="recipe-generator" onClick={randomizeRecipe} >Show New Recipe</button>
+        </div>
     );
 
 }

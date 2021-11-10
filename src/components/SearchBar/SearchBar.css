@@ -7,8 +7,10 @@
     border: 1px solid #6d6d70;
     
 }
+.searchbar-container{
+    text-align: center;
+}
 
-.searchbar:focus{
-    
+.searchbar:focus-visible{
     outline: 1px solid rgb(70, 70, 70);
 }

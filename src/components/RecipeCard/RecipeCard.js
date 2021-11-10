@@ -9,9 +9,9 @@ export default function RecipeCard(props){
             <div className="summary"> 
                 <Link to={`/recipe/${id}`}>
                     <img className="card-image" src={img} alt={dishName} />
-                <h4 className="card-dish-name">{dishName}</h4>
-                <p className="summary-paragraph">{directions}</p>
+                    <h4 className="card-dish-name">{dishName}</h4>
                 </Link>
+                <p className="summary-paragraph">{directions}</p>
             </div>
         </div>
     );
