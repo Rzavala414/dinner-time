@@ -26,10 +26,10 @@ export default function RandomRecipe(props){
       randomizeRecipe();
     }
 
-    // prevents random recipe from display an empty page after a user leaves 
-    useEffect(() => {
-      randomizeRecipe();
-    },[])
+    // // prevents random recipe from display an empty page after a user leaves 
+    // useEffect(() => {
+    //   randomizeRecipe();
+    // },[])
 
     return(
         <div>
