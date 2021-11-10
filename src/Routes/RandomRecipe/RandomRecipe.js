@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Button from '../../components/Button/Button.js';
 import RecipeImage from '../../components/RecipeImage/RecipeImage.js';
 import FoodContentContainer from '../../components/FoodContentContainer/FoodContentContainer.js'
