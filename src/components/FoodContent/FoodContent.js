@@ -30,7 +30,7 @@ export default function FoodContent(props){
     return(
         <div className="food-content">
             <h2>{dishName}</h2> 
-            <span>Servings: {servings}</span>
+            <div>Servings: {servings}</div>
            
             <h3><u>INGREDIENTS</u></h3>
             <ul>

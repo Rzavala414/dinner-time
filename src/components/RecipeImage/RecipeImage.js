@@ -20,5 +20,9 @@ export default function RecipeImage(props){
 
     }
     
-    return <img className="recipe-image" src={img} alt={dishName} />;
+    return (
+        <div className="img-container">
+            <img className="recipe-image" src={img} alt={dishName} />
+        </div>
+    )
 };

@@ -3,4 +3,9 @@
     width: 700px;
     border-radius: 7px;
     border: solid 3px rgb(122, 117, 117);
-  }
+
+}
+
+.img-container{
+  text-align: center;
+}

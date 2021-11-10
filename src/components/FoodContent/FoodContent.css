@@ -1,7 +1,31 @@
 .food-content{
     margin: 75px auto;
-    height: 75%;
+    min-height: 50em;
     width: 85%;
+    background-color: rgba(255, 255, 255, 0.8);
     border: solid 5px #494738;
-    
+}
+
+.food-content h2{
+    font-size: 28px;
+    text-align: center;
+}
+
+.food-content div{
+    font-size: 18px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.food-content h3{
+    font-size: 20px;
+    margin-left: 3.5em;
+}
+
+.food-content li{
+    font-size: 18px;
+}
+
+.food-content ul, ol{
+   margin: 0 2.5em;
 }
